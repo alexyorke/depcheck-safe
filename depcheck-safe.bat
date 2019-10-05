@@ -1,0 +1,1 @@
+for /F "tokens=*" %A in (depcheck.txt) do ((COPY /y package.json package-depcheck.json && npm uninstall %A && npm run build && npm run lint && npm test --watch=false --browsers=ChromeHeadless && npm run e2e) || (MOVE /Y package-depcheck.json package.json && npm install))
