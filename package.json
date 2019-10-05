@@ -1,0 +1,25 @@
+{
+  "name": "depcheck-safe",
+  "version": "1.0.0",
+  "description": "depcheck-safe is a wrapper for depcheck, but only flags packages for removal if removing them won't break the build or tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexyorke/depcheck-safe.git"
+  },
+  "keywords": [
+    "depcheck",
+    "depcheck-safe",
+    "dependency",
+    "checker"
+  ],
+  "author": "Alex Yorke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexyorke/depcheck-safe/issues"
+  },
+  "homepage": "https://github.com/alexyorke/depcheck-safe#readme"
+}
